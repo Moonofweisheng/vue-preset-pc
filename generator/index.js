@@ -31,10 +31,10 @@ module.exports = (api, options, rootOptions) => {
     }
   })
 
-  if (options['ui-framework'] === 'element-ui') {
+  if (options.elementUI) {
     api.extendPackage({
-      dependencies: {
-        'element-ui': '^2.4.5'
+      devDependencies: {
+        "element-ui": "^2.13.0"
       }
     })
   }
