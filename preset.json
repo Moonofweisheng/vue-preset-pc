@@ -1,6 +1,9 @@
 {
   "useTaobaoRegistry": true,
   "packageManager": "npm",
+  "useConfigFiles": true,
+  "router": false,
+  "vuex": false,
   "presets": {
     "vue-typescript": {
       "useConfigFiles": true,
@@ -9,6 +12,7 @@
         "@vue/cli-plugin-typescript": {
           "classComponent": true,
           "tsLint": true,
+          "esLint": false,
           "lintOn": [
             "save"
           ],
