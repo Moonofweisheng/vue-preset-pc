@@ -23,7 +23,6 @@ module.exports = {
             // 在 dist/index.html 的输出
             filename: 'index.html',
             // 当使用 title 选项时，
-            // template 中的 title 标签需要是 <title><%= htmlWebpackPlugin.options.title %></title>
             title: 'fant-cli',
             // 在这个页面中包含的块，默认情况下会包含
             // 提取出来的通用 chunk 和 vendor chunk。
@@ -37,7 +36,6 @@ module.exports = {
             // 在 dist/index.html 的输出
             filename: 'example.html',
             // 当使用 title 选项时，
-            // template 中的 title 标签需要是 <title><%= htmlWebpackPlugin.options.title %></title>
             title: 'example-ui',
             // 在这个页面中包含的块，默认情况下会包含
             // 提取出来的通用 chunk 和 vendor chunk。,这里最后的一个example注入到example.html的example.js
