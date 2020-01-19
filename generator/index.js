@@ -18,7 +18,8 @@ module.exports = (api, options, rootOptions) => {
       "vue-quill-editor": "^3.0.6",
       "vue-router": "^3.0.1",
       "vuex": "^3.0.1",
-      "vuex-class": "^0.3.1"
+      "vuex-class": "^0.3.1",
+      "js-cookie": "^2.2.1"
     },
     devDependencies: {
       "@types/chai": "^4.1.0",
