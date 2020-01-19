@@ -1,7 +1,7 @@
 {
-  "name": "vue-preset-pc",
+  "name": "fant-preset",
   "version": "0.3.0",
-  "description": "MS vue preset for pc",
+  "description": "fant-preset",
   "main": "prompts.js",
   "scripts": {
     "release": "standard-version"
